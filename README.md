@@ -1,6 +1,9 @@
 # post-json
 
 
+**requirement: jsonlint** `npm install jsonlint -g`
+
+
 Let's say we have a number of "blog posts" as `.md` files
 
 
