@@ -1,0 +1,13 @@
+npm install jsonlint -g
+
+./run.sh extracts heading and filename off a bunch of md and generates JSON like:
+
+{
+  "posts": [
+    {
+      "name": ...
+      "heading": ...
+    },
+    ...
+  ]
+}
