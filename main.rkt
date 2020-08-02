@@ -1,12 +1,9 @@
 #lang racket
 
-
 (require racket/contract json)
-
 
 (define DIR-PATHS (map path->string (directory-list)))
 (define OUTFILE "posts.json")
-
 
 ; String -> Boolean
 ; is it a string representing a md filename
